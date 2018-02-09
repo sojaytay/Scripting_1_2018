@@ -13,7 +13,7 @@ public class ChickenAi : MonoBehaviour {
 		
 	}
 	
-	void onTriggerStay(Collider other)
+	void OnTriggerStay(Collider other)
 	{
 
 		if(other.gameObject.name == "Player"){
